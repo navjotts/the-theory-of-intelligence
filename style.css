@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 600;
+	src: url(fonts/Lato/Lato-Semibold.ttf);
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	src: url(fonts/Lato/Lato-Light.ttf);
+}
+
+html, body {
+	font-family: "Lato", sans-serif;
+	color: black;
+	font-size: 14px;
+	line-height: 24px;
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+    text-align:center;
+    border-bottom: 1px solid #20B9EB;
+    font-size:24px;
+}
+
+.footer {
+    text-align:center;
+    font-size: 13px;
+    color: #596269;
+    border-top: 1px solid #20B9EB;
+    margin-top: 10em;
+    padding-bottom:5em;
+}
+
+.content {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.heading {
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #20B9EB;
+    padding-bottom: 2px;
+}
