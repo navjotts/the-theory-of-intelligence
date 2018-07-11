@@ -38,10 +38,38 @@ html, body {
 .footer {
     text-align:center;
     font-size: 13px;
-    color: #596269;
+    color: #000;
     border-top: 1px solid #20B9EB;
     margin-top: 10em;
     padding-bottom:5em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top:0.5em;
+    margin-bottom:0.5em
+}
+
+.footer-content-left {
+    flex: 1;
+    flex-basis: 44%;
+    text-align: right;
+    height: 32px;
+}
+
+.footer-content-right {
+    flex: 1;
+    flex-basis: 56%;
+    text-align: left;
+    display:table;
+    height: 32px;
+}
+
+.footer-content-right-text {
+    display:table-cell;
+    vertical-align:middle;
 }
 
 .content {
