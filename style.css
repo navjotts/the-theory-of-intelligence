@@ -45,31 +45,8 @@ html, body {
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-between;
-    width:100%;
     margin-top:0.5em;
-    margin-bottom:0.5em
-}
-
-.footer-content-left {
-    flex: 1;
-    flex-basis: 44%;
-    text-align: right;
-    height: 32px;
-}
-
-.footer-content-right {
-    flex: 1;
-    flex-basis: 56%;
-    text-align: left;
-    display:table;
-    height: 32px;
-}
-
-.footer-content-right-text {
-    display:table-cell;
-    vertical-align:middle;
+    margin-bottom:0.5em;
 }
 
 .content {
